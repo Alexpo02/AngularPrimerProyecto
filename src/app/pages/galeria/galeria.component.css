@@ -1,0 +1,15 @@
+.card {
+    min-height: 100%; /* Asegura que todas las tarjetas ocupen el mismo alto */
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    height: 180px;
+    object-fit: cover;
+  }
+  

@@ -1,0 +1,21 @@
+/* Aplica a todo el documento */
+html, body {
+    height: 100%; /* Asegura que el cuerpo tenga el 100% de la altura */
+    margin: 0; /* Elimina cualquier margen por defecto */
+    display: flex; /* Activa Flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    background-color: #f8f9fa; /* Fondo claro */
+  }
+  
+  /* Estilos para el formulario */
+  form {
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #ced4da; /* Borde gris */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: #ffffff; /* Fondo blanco */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+    width: 100%;
+    max-width: 400px; /* Ancho máximo */
+  }
+  
